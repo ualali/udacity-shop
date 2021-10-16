@@ -16,7 +16,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image: ualali/udacityshop-adservice:latest
+          image: ualali/udacityshop-adservice
           ports:
             - containerPort: 9555
           env:
