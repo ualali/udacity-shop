@@ -22,3 +22,4 @@ protodir=../../pb
 # protoc --go_out=plugins=grpc:genproto -I $protodir $protodir/demo.proto
 # --go-grpc_out=genproto
 protoc --go_out=plugins=grpc:genproto  -I $protodir $protodir/demo.proto
+# for GO version 1.17+ protoc --proto_path=$protodir --go_out=./genproto --go_opt=Mdemo.proto=. $protodir/demo.proto
